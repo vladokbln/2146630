@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<meta charset="utf-8">
+	<meta http-equiv='X-UA-Compatible', content="IE = edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Главная страница</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header"></header>
+			<div class="content">
+				<div class="container">
+					<div class="user-info clearfix">
+						<div class="user-info__img" >
+							<img src="img/user.png" alt="">
+						</div>
+						<p class="user-info__name">Вероника Ростова</p>
+						<span class="user-info__post">Менеджер по продажам</span>
+						<div class="user-info__descr">Подберу для вас самые лучшие предложения. Мои услуги абсолютно бесплатны</div>
+					</div>
+					<div class="services__wrap">
+						<div class="services__top clearfix">
+							<p class="services__name">Услуг</p>
+						</div>
+						<div class="services">
+							<div class="services-progress">
+								<span class="services-progress__striped services-progress__striped--reserv"></span>
+								<p class="services-progress__text">Ручное бронирование</p>
+								<span class="services-progress__count">11</span>
+							</div>
+							<div class="services-progress">
+								<span class="services-progress__striped services-progress__striped--tours"></span>
+								<p class="services-progress__text">Пакетные туры</p>
+								<span class="services-progress__count">3</span>
+							</div>
+							<div class="services-progress">
+								<span class="services-progress__striped services-progress__striped--hotels"></span>
+								<p class="services-progress__text">Отели</p>
+								<span class="services-progress__count">1</span>
+							</div>
+						</div>
+						<div class="services__footer">
+							<p class="services__total">Всего</p>
+							<span class="services__total-count">15</span>
+						</div>	
+					</div>
+					<div class="reviews__wrap">
+						<div class="reviews__top">
+							<span class="reviews__title">Последние отзывы</span>
+							<a href="#" class="reviews__link">Все отзывы</a>
+							<div class="reviews__icons reviews-icons">
+								<div class="reviews-icons__item">
+									<i class="reviews-icons__img reviews-icons__img--like"></i>
+									<span class="reviews-icons__count">131</span>
+								</div>
+								<div class="reviews-icons__item">
+									<i class="reviews-icons__img reviews-icons__img--comment"></i>
+									<span class="reviews-icons__count">14</span>
+								</div>
+							</div>
+						</div>
+						<div class="reviews">
+							<div class="reviews__item">
+								<p class="reviews__name">Самуил <span class="reviews__data"> 13 октября 2011</span></p>
+								<p class="reviews__text">Привет, Верунь! ниче себе ты крутая. фотка класс!!!! </p>
+							</div>
+							<div class="reviews__item">
+								<p class="reviews__name">Лилия Семёновна  <span class="reviews__data">14 октября 2011</span></p>
+								<p class="reviews__text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент, это и есть всемирно известный центр огранки алмазов и торговли бриллиантами?</p>
+							</div>
+							<div class="reviews__item">
+								<p class="reviews__name">Лилия Семёновна  <span class="reviews__data">14 октября 2011</span></p>
+								<p class="reviews__text">Вероника, здравствуйте! Есть такой вопрос: Особый вид куниц жизненно стабилизирует кинетический момент?</p>
+							</div>
+							<div id="comment-field"></div>
+						</div>
+					</div>
+					<div class="main-form">
+						<form action="">
+							<textarea class="main-form__control" id="comment-body"></textarea>
+							<button type="submit" id="comment-add" class="main-form__btn">Написать консультанту</button>
+						</form>
+					</div>
+				</div>
+	
+			</div>
+
+		<footer class="footer"></footer>
+	</div>
+	<script src="js/libs.js"></script>
+	<script src="js/main.js"></script>
+</body>
